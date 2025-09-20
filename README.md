@@ -45,6 +45,14 @@ python grammar_checker.py
 
 This project was originally built as part of a coding assignment.
 
+`spacy` requires the `en_core_web_sm` model to be installed separately. You can mention in README:
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
+Pandas isn’t strictly required since you’re writing CSV with the built-in csv module.
+
 
 
 
